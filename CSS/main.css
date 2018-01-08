@@ -1,0 +1,128 @@
+body {
+
+}
+
+.container1 {
+  position: fixed;
+  background-image: url("./assets/img/sunny-day.jpg");
+  width: 1035px;
+  height: 615px;
+  }
+
+.container2 {
+  position: fixed;
+  background-image: url("./assets/img/dawn.jpg");
+  width: 900px;
+  height: 500px;
+  }
+
+  .container3 {
+    position: fixed;
+    background-image: url("./assets/img/night.jpg");
+    width: 700px;
+    height: 400px;
+    }
+
+.kittenL {
+    margin-left: 300px;
+    margin-top: 300px;
+}
+
+.kittenM {
+    margin-left: 200px;
+    margin-top: 200px;
+}
+
+.kittenS {
+    margin-right: 100px;
+    margin-top: 100px;
+}
+
+
+
+
+@media screen and (max-width:1024px){
+  .container1{
+visibility:hidden;
+    }
+}
+
+@media screen and (max-width: 780px){
+  .container2{
+    visibility: hidden;
+}
+
+    }
+
+@media screen and (max-width: 200px){
+.container3{
+visibility:hidden;
+  }
+}
+
+/*
+
+@media screen and (max-width: 768px) {
+
+  .container1{
+      visibility:hidden;
+        grid-template-areas:
+
+        "a a a a a a a a a a a a";
+    }
+    .container2{
+      visibility:visible;
+      grid-template-areas:
+
+      "a a a a a a a a a a a a";
+    }
+}
+
+---------------------------------------------
+ @media screen and (max-width: 344px) {
+    .container1 {
+        visibility:hidden;
+        grid-template-areas:
+
+        "a a a a a a a a a a a a";
+    }
+
+    .kittenS{
+      visibility:visible;
+    }
+} */
+
+
+
+
+
+
+
+
+
+
+
+/*
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>KITTEN</title>
+    <link rel="stylesheet" href="css/main.css">
+  </head>
+  <body>
+    <div>
+
+<div class="container1">
+  <img class="KittenL" src=.\CSS\img\kitten-large.png />
+    </div>
+    <div class="container2">
+  <img class="KittenM" src=.\CSS\img\kitten-medium.png  />
+    </div>
+    <div class="container3">
+  <img class="KittenS" src=.\CSS\img\kitten-small.png width="960" height="640" />
+  </div>
+  </div>
+</body>
+</html>
+/*
